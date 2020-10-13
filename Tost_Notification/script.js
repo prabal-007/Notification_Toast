@@ -12,7 +12,6 @@ function createNotification(){
     notify.innerText = "Successfully completed!\nLet's move to next project ";
 
     container.appendChild(notify);
-
     
     setTimeout(() =>{
         notify.remove();
