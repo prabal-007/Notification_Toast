@@ -13,6 +13,7 @@ function createNotification(){
 
     container.appendChild(notify);
 
+    
     setTimeout(() =>{
         notify.remove();
     }, 3000);
